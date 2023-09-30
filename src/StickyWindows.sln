@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinTest", "WinTest\WinTest.csproj", "{609227AC-69FB-43D6-8E44-9817D260C2D0}"
 EndProject
@@ -14,7 +14,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B247CD4-6CCD-48A8-9BA0-8962FBE2DC8E}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
-		..\appveyor.yml = ..\appveyor.yml
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject

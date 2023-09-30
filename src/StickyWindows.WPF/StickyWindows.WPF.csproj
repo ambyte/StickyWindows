@@ -1,22 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net40;net45</TargetFrameworks>
 
     <Authors>Corneliu I. Tusnea, Riccardo Pietrucci, Thomas Freudenberg</Authors>
     <Company>thoemmi</Company>
     <Copyright>Copyright © 2017 Corneliu I. Tusnea, Riccardo Pietrucci, Thomas Freudenberg</Copyright>
     <Description>Make your top-level WPF windows stick when moved or resized.</Description>
     <PackageTags>Window Sticky WPF</PackageTags>
+    <TargetFramework>net462</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="GitVersionTask" Version="4.0.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta-63127-02">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-    </PackageReference>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +24,7 @@
     <Reference Include="System.Xaml"></Reference>
     <Reference Include="PresentationCore"></Reference>
     <Reference Include="PresentationFramework"></Reference>
+    <Reference Include="WindowsBase" />
   </ItemGroup>
 
   <!-- libraries specific to .NET4.0 -->
