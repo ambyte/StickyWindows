@@ -3,6 +3,8 @@
 This library helps creating window applications where the windows can both stick to
 screen borders and to each other.
 
+In version 0.4 project updated to .NET 4.6.2 and uses Microsoft.Xaml.Behaviors.Wpf instead of System.Windows.Interactivity
+
 The code originates from the Codeproject article
 [Sticky Windows - How to make your (top-level) forms to stick one to the other or to the screen](https://www.codeproject.com/Articles/6045/Sticky-Windows-How-to-make-your-top-level-forms-to)
 by Corneliu Tusnea. He never published a NuGet package, so I asked for his permission
@@ -88,13 +90,11 @@ You have two options to make your windows "sticky":
 
 Both options support the same properties as the WinForms implementation.
 
-> Please note that **StickyWindows.WPF** requires **System.Windows.Interactivity**,
-> which is neither part of the library nor a dependency of the NuGet package. The point
-> is, there's no official NuGet package for **System.Windows.Interactivity** by Microsoft.
-> I decided against delivering this library as part of **StickyWindows.WPF** as it may
-> conflict with different versions in other libraries you may be using potentially.
-
 ## Version History
+
+### v0.4
+
+* Update project to .NET 4.6.2 and uses Microsoft.Xaml.Behaviors.Wpf instead of System.Windows.Interactivity
 
 ### v0.3 (not released yet)
 
